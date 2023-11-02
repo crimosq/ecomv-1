@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact</title>
+</head>
+<body>
+    <nav class="main-nav"> 
+        <ul>
+            <li><a href='index.html'><img class='logo' src="images/Koda.png" alt="Company Logo"></a></li>
+            <li class="options"><a href='index.html'>Home</a></li>
+            <li class="options"><a href="product.html">Product</a></li>
+            <li class="options"><a href='contact.html'>Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="contact-banner">
+        <h1>Contact Us</h1>
+        <p class="contact-description">
+          We'd really love to hear from you! Please fill in the form below and submit.
+        </p>
+    </section>
+
+    <section class="one">
+        <div class="container">
+            <form name="contact-form">
+                <div class="form-group">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="First and Last Name" />
+                    <div class="error hide">Name is required</div>
+                </div>
+        
+                <div class="form-group">
+                    <label>Email</label>
+                    <input type="email" name="email" placeholder="youremail@example.com" />
+                    <div class="error hide">Email is invalid</div>
+                </div>
+        
+                <div class="form-group">
+                    <label>Phone</label>
+                    <input type="tel" name="phone" />
+                    <div class="error hide">Phone is invalid</div>
+                </div>
+        
+                <div class="form-group">
+                    <label>Message</label>
+                    <textarea name="message"></textarea>
+                    <div class="error hide">Message is required</div>
+                </div>
+        
+               
+        
+                <button type="submit">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class='container-list'>
+            <ul class="first-list">
+                <li class="allcaps">PROMOTIONS</li>
+                <li class="allcaps">FIND A STORE</li>
+                <li class="allcaps">BECOME A MEMBER</li>
+                <li class="allcaps">JOURNAL</li>
+                <li class="allcaps">SEND US FEEDBACK</li>
+            </ul>
+            <ul class="social-cont">
+                <li><img class='social-icons' src='images/facebook.png' alt='Facebook Icon'></li>
+                <li><img class='social-icons' src='images/instagram.png' alt='Instagram Icon'></li>
+            </ul>
+        </div>
+    </footer>
+    <script src="contact.js"></script>
+</body>
+</html>

@@ -1,11 +1,14 @@
 * {
     margin: 0;
+    
 }
+
 
 .one {
     display: flex;
     justify-content: center;
     margin-top: 150px;
+
 }
 .container {
     border: 3px solid;
@@ -70,4 +73,8 @@ button:hover {
     color: red;
     font-size: 0.8em;
     margin-top: 5px;
+  }
+
+  .last-sec {
+    height: 40vh;
   }

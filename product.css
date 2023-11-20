@@ -5,24 +5,29 @@
         
     }
 
-
+body {
+    background-color: #bcc9b3;
+}
 .container {
     display: flex;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
     justify-content: center;
-    gap: -20px;
-    height: 90vh;
+    gap: 20px; 
+    height: auto;
+    padding: 20px; 
 }
 
 .p-box {
-    height: 400px;
-    width: 400px;
+    height: auto; 
+    width: 100%;
+    max-width: 400px; 
     margin-top: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:5px;
-    margin-left: 1px;
+    align-items: center;
+    padding: 5px;
+    box-sizing: border-box;
     
    
 }
@@ -49,20 +54,30 @@ h4 {
     margin-top: 10px;
     font-family: Arial, Helvetica, sans-serif;
     color:black;
+    text-align: center;
+    width: 100%;
 }
 .img-pro{
-    width:300px;
-    height:300px;
-    
+    width: 100%; 
+    max-width: 300px; 
+    height: auto; 
+    margin: 0 auto; 
+    border-radius: 5px;
 }
 
 .discription {
     font-size: 13px;
-    width:250px;
+    width: 100%; 
+    max-width: 250px; 
+    margin: 0 auto; 
+    text-align: center; 
 }
 
 .header {
-    margin-top: 10px;
+    margin-top: 30px;
     display: flex;
     justify-content: center;
+    width: 100%;
+    text-align: center;
+    align-items: center;
 }
